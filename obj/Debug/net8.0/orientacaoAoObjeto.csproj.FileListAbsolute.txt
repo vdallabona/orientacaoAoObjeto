@@ -1,0 +1,14 @@
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\bin\Debug\net8.0\orientacaoAoObjeto.exe
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\bin\Debug\net8.0\orientacaoAoObjeto.deps.json
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\bin\Debug\net8.0\orientacaoAoObjeto.runtimeconfig.json
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\bin\Debug\net8.0\orientacaoAoObjeto.dll
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\bin\Debug\net8.0\orientacaoAoObjeto.pdb
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.AssemblyInfoInputs.cache
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.AssemblyInfo.cs
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.dll
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\refint\orientacaoAoObjeto.dll
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.pdb
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.genruntimeconfig.cache
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\ref\orientacaoAoObjeto.dll
