@@ -1,29 +1,22 @@
 ﻿namespace Objeto{
     public class Program{
         static void Main(){
-/*
-            Objeto objeto = new Objeto();
-            Objeto objeto1 = new Objeto();
 
-            Console.WriteLine("Informe seu nome: ");
-            objeto.Nome = Console.ReadLine() ?? "";
-
-            Console.WriteLine("Informe sua idade: ");
-            objeto.Idade = Convert.ToInt32(Console.ReadLine());
-            objeto.Apresentar();
-*/
             int op = 0;
-            string aMimir = "não informado";
-            string aComer = "não informado";
+            string? aMimir = "não informado"; //interrogação para dizer que pode ser nulo
+            string? aComer = "não informado";
 
             Console.WriteLine("Quantos cachorros quer registrar?");
             int NumCachorros = Convert.ToInt32(Console.ReadLine());
 
             Cachorro[] cachorros = new Cachorro[NumCachorros]; //campo vazio que aceita um cachorro instanciado
-
+            Pastor[] pastor = new Pastor[NumCachorros];
+            Policial[] policial = new Policial[NumCachorros];
             for (int i = 0; i < NumCachorros; i++){
 
                 cachorros[i] = new Cachorro(); //cria uma instância de cachorro em um dos espaços do array
+                pastor[i] = new Pastor();
+                policial[i] = new Policial();
 
                 Console.WriteLine("Qual o nome do cachorro? ");
                 cachorros[i].Nome = Console.ReadLine() ?? "";
@@ -37,6 +30,18 @@
                 Console.WriteLine("Quantos brinquedos ele tem? ");
                 cachorros[i].QtdBrinquedos = Convert.ToInt32(Console.ReadLine());
 
+                Console.WriteLine("Qual o trabalho do seu cão? [1] Pastor [2] Policial ");
+                cachorros[i].Trabalho = Convert.ToInt32(Console.ReadLine());
+                if(cachorros[i].Trabalho == 1){
+                    Console.WriteLine("Quantas ovelhas seu pastor guiou?");
+                    pastor[i].ovelhasGuiadas =  Convert.ToInt32(Console.ReadLine());
+                }else if(cachorros[i].Trabalho == 2){
+                    Console.WriteLine("Quantos bandidos seu policial prendeu?");
+                    policial[i].bandidosPresos =  Convert.ToInt32(Console.ReadLine());
+                }else{
+                    Console.WriteLine("Cão desempregado");
+                }
+                aMimir = "não informado";
                 do{
                     if(aMimir != "não informado"){
                         Console.WriteLine("ERRO 325 - Só aceitamos true ou false");
@@ -47,7 +52,7 @@
                     cachorros[i].Dormindo = Convert.ToBoolean(aMimir);
                 do{
                     if(aComer != "não informado"){
-                        Console.WriteLine("ERRO 325 - Só aceitamos true ou false");
+                        Console.WriteLine("ERRO - Só aceitamos true ou false");
                     }
                     Console.WriteLine("Ele está com fome no momento? Digite true ou false");
                     aComer = Console.ReadLine();
@@ -69,7 +74,8 @@
                 Console.WriteLine("[1] Brincar");
                 Console.WriteLine("[2] Botar para dormir/acordar");
                 Console.WriteLine("[3] Dar de comer");
-                Console.WriteLine("[4] Sair");
+                Console.WriteLine("[4] Atividade de raça");
+                Console.WriteLine("[5] Sair");
                 op = Convert.ToInt32(Console.ReadLine());
                 switch (op){
                     case 1:{
@@ -94,8 +100,22 @@
                     }
                         break;
                     }
+                    case 4:{
+                        for (int i = 0; i < NumCachorros; i++){
+                            if(cachorros[i].Trabalho == 1){
+                                Console.Write(cachorros[i].Nome);
+                                pastor[i].GuiarOvelhas();
+                            }else if(cachorros[i].Trabalho == 2){
+                                Console.Write(cachorros[i].Nome);
+                                policial[i].PrenderBandido();
+                            }else{
+                                Console.WriteLine("Seu cão é desempregado");
+                            }
+                        }
+                        break;
+                    }
                 }
-            }while(op != 4);
+            }while(op != 5);
         }
     }
 }

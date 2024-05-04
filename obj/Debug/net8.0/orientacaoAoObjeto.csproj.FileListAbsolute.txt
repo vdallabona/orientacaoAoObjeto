@@ -12,3 +12,4 @@ C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8
 C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.pdb
 C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.genruntimeconfig.cache
 C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\ref\orientacaoAoObjeto.dll
+C:\Users\vinicius.dallabona\Desktop\instância\orientacaoAoObjeto\obj\Debug\net8.0\orientacaoAoObjeto.sourcelink.json
