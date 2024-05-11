@@ -74,7 +74,7 @@
                 Console.WriteLine("[1] Brincar");
                 Console.WriteLine("[2] Botar para dormir/acordar");
                 Console.WriteLine("[3] Dar de comer");
-                Console.WriteLine("[4] Atividade de raça");
+                Console.WriteLine("[4] Atividade de trabalho");
                 Console.WriteLine("[5] Sair");
                 op = Convert.ToInt32(Console.ReadLine());
                 switch (op){
